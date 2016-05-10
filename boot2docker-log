@@ -1,3 +1,0 @@
-#!/bin/bash -e
-# This displays the log of the docker daemon in the boot2docker VM.
-boot2docker ssh tail -f /var/log/docker.log
